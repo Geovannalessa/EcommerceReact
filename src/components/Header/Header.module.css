@@ -1,0 +1,40 @@
+.Header {
+    height: 90px;
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    width: 50%;
+    margin-left: 25px;
+}
+
+.logoImagem {
+    height: 90px;
+    width: 110px;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: end;
+    gap: 60px;
+    margin-right: 25px;
+}
+
+.nav>* {
+    padding: 10px;
+    border: 1px solid rgb(194, 194, 71);
+}
+
+.user {
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.user>img {
+    height: 30PX;
+    width: 35px;
+}
