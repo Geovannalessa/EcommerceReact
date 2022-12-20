@@ -15,7 +15,7 @@
 }
 
 .nav {
-    list-style: none;
+    
     display: flex;
     align-items: center;
     width: 50%;
@@ -25,16 +25,23 @@
 }
 
 .nav>* {
-    padding: 10px;
-    border: 1px solid rgb(194, 194, 71);
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    border: 1px solid rgba(236, 236, 137, 0.864);
+    
 }
-
+.nav>a:hover{
+    transition: 1s;
+    border: 1px solid rgba(236, 236, 137, 0.38);
+  background-color: rgba(255, 239, 206, 0.351);
+}
 .user {
     padding: 10px;
     border-radius: 100px;
 }
 
 .user>img {
-    height: 30PX;
-    width: 35px;
+    height: 19PX;
+    width: 20px;
 }

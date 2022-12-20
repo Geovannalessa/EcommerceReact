@@ -1,5 +1,5 @@
 import styles from './Home.module.css'
-
+import { Link } from "react-router-dom"
 const Home = () => {
     return (
         <section>
@@ -13,9 +13,10 @@ const Home = () => {
             </article>
             <article className={styles.cards}>
                 <section className={styles.card}>
-                <img src="https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="frutas" />
+                    <img src="https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="frutas" />
                     <div className={styles.bloco}>
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvdle0RwUAQhp9UgArogBLohA7ogA50gEoogQ7oQAfMa3Jmc/m4u5Ax435lks37tTt7GR2frGN8vkWwBB7AAbhb0T7BFNgBo4CzBbAH+sARmOT1Z2BmSXyCKzBsAX7J/xkDBRKfQDZ1QtFZ5QKXc50TIJIVsK0CiiGoi0V4Lq4NsG5D4CsXhotFz+qFc/RqdkpEoViEVwBPIagCl8K69+85iXGQCq6YNEmV0+I3uQ24Gj2IJZASNdFm2xSLYuvZ3oYico6kKCbz0pjHEqgu2NB8HxWGJ5bAbo/SKJqPrR04jCZw1SQTBPZe6fPvCdyYpSq39Td7n1RdOLpIQndCnQCBz/O1HbX3P3HyJwRPUqJjGRVuJEcAAAAASUVORK5CYII=" alt='icone de lapis para editar o produto' />
+                        <Link to='/editarProduto'> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvdle0RwUAQhp9UgArogBLohA7ogA50gEoogQ7oQAfMa3Jmc/m4u5Ax435lks37tTt7GR2frGN8vkWwBB7AAbhb0T7BFNgBo4CzBbAH+sARmOT1Z2BmSXyCKzBsAX7J/xkDBRKfQDZ1QtFZ5QKXc50TIJIVsK0CiiGoi0V4Lq4NsG5D4CsXhotFz+qFc/RqdkpEoViEVwBPIagCl8K69+85iXGQCq6YNEmV0+I3uQ24Gj2IJZASNdFm2xSLYuvZ3oYico6kKCbz0pjHEqgu2NB8HxWGJ5bAbo/SKJqPrR04jCZw1SQTBPZe6fPvCdyYpSq39Td7n1RdOLpIQndCnQCBz/O1HbX3P3HyJwRPUqJjGRVuJEcAAAAASUVORK5CYII=" alt='icone de lapis para editar o produto' />
+                        </Link>
                         <p className={styles.titulo}>
                             CENOURA
                         </p>
@@ -27,7 +28,7 @@ const Home = () => {
                         </p>
                     </div>
                 </section>
-                <section className={styles.card}>
+                {/* <section className={styles.card}>
                     <img src="https://images.pexels.com/photos/708777/pexels-photo-708777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="frutas" />
                     <div className={styles.bloco}>
                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvdle0RwUAQhp9UgArogBLohA7ogA50gEoogQ7oQAfMa3Jmc/m4u5Ax435lks37tTt7GR2frGN8vkWwBB7AAbhb0T7BFNgBo4CzBbAH+sARmOT1Z2BmSXyCKzBsAX7J/xkDBRKfQDZ1QtFZ5QKXc50TIJIVsK0CiiGoi0V4Lq4NsG5D4CsXhotFz+qFc/RqdkpEoViEVwBPIagCl8K69+85iXGQCq6YNEmV0+I3uQ24Gj2IJZASNdFm2xSLYuvZ3oYico6kKCbz0pjHEqgu2NB8HxWGJ5bAbo/SKJqPrR04jCZw1SQTBPZe6fPvCdyYpSq39Td7n1RdOLpIQndCnQCBz/O1HbX3P3HyJwRPUqJjGRVuJEcAAAAASUVORK5CYII=" alt='icone de lapis para editar o produto' />
@@ -43,7 +44,7 @@ const Home = () => {
                     </div>
                 </section>
                 <section className={styles.card}>
-                <img src="https://images.pexels.com/photos/1435301/pexels-photo-1435301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="frutas" />
+                    <img src="https://images.pexels.com/photos/1435301/pexels-photo-1435301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="frutas" />
                     <div className={styles.bloco}>
                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvdle0RwUAQhp9UgArogBLohA7ogA50gEoogQ7oQAfMa3Jmc/m4u5Ax435lks37tTt7GR2frGN8vkWwBB7AAbhb0T7BFNgBo4CzBbAH+sARmOT1Z2BmSXyCKzBsAX7J/xkDBRKfQDZ1QtFZ5QKXc50TIJIVsK0CiiGoi0V4Lq4NsG5D4CsXhotFz+qFc/RqdkpEoViEVwBPIagCl8K69+85iXGQCq6YNEmV0+I3uQ24Gj2IJZASNdFm2xSLYuvZ3oYico6kKCbz0pjHEqgu2NB8HxWGJ5bAbo/SKJqPrR04jCZw1SQTBPZe6fPvCdyYpSq39Td7n1RdOLpIQndCnQCBz/O1HbX3P3HyJwRPUqJjGRVuJEcAAAAASUVORK5CYII=" alt='icone de lapis para editar o produto' />
                         <p className={styles.titulo}>
@@ -58,7 +59,7 @@ const Home = () => {
                     </div>
                 </section>
                 <section className={styles.card}>
-                <img src="https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="frutas" />
+                    <img src="https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="frutas" />
                     <div className={styles.bloco}>
                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvdle0RwUAQhp9UgArogBLohA7ogA50gEoogQ7oQAfMa3Jmc/m4u5Ax435lks37tTt7GR2frGN8vkWwBB7AAbhb0T7BFNgBo4CzBbAH+sARmOT1Z2BmSXyCKzBsAX7J/xkDBRKfQDZ1QtFZ5QKXc50TIJIVsK0CiiGoi0V4Lq4NsG5D4CsXhotFz+qFc/RqdkpEoViEVwBPIagCl8K69+85iXGQCq6YNEmV0+I3uQ24Gj2IJZASNdFm2xSLYuvZ3oYico6kKCbz0pjHEqgu2NB8HxWGJ5bAbo/SKJqPrR04jCZw1SQTBPZe6fPvCdyYpSq39Td7n1RdOLpIQndCnQCBz/O1HbX3P3HyJwRPUqJjGRVuJEcAAAAASUVORK5CYII=" alt='icone de lapis para editar o produto' />
                         <p className={styles.titulo}>
@@ -88,7 +89,7 @@ const Home = () => {
                     </div>
                 </section>
                 <section className={styles.card}>
-                <img src="https://images.pexels.com/photos/1435301/pexels-photo-1435301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="frutas" />
+                    <img src="https://images.pexels.com/photos/1435301/pexels-photo-1435301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="frutas" />
                     <div className={styles.bloco}>
                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvdle0RwUAQhp9UgArogBLohA7ogA50gEoogQ7oQAfMa3Jmc/m4u5Ax435lks37tTt7GR2frGN8vkWwBB7AAbhb0T7BFNgBo4CzBbAH+sARmOT1Z2BmSXyCKzBsAX7J/xkDBRKfQDZ1QtFZ5QKXc50TIJIVsK0CiiGoi0V4Lq4NsG5D4CsXhotFz+qFc/RqdkpEoViEVwBPIagCl8K69+85iXGQCq6YNEmV0+I3uQ24Gj2IJZASNdFm2xSLYuvZ3oYico6kKCbz0pjHEqgu2NB8HxWGJ5bAbo/SKJqPrR04jCZw1SQTBPZe6fPvCdyYpSq39Td7n1RdOLpIQndCnQCBz/O1HbX3P3HyJwRPUqJjGRVuJEcAAAAASUVORK5CYII=" alt='icone de lapis para editar o produto' />
                         <p className={styles.titulo}>
@@ -103,7 +104,7 @@ const Home = () => {
                     </div>
                 </section>
                 <section className={styles.card}>
-                <img src="https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="frutas" />
+                    <img src="https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="frutas" />
                     <div className={styles.bloco}>
                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvdle0RwUAQhp9UgArogBLohA7ogA50gEoogQ7oQAfMa3Jmc/m4u5Ax435lks37tTt7GR2frGN8vkWwBB7AAbhb0T7BFNgBo4CzBbAH+sARmOT1Z2BmSXyCKzBsAX7J/xkDBRKfQDZ1QtFZ5QKXc50TIJIVsK0CiiGoi0V4Lq4NsG5D4CsXhotFz+qFc/RqdkpEoViEVwBPIagCl8K69+85iXGQCq6YNEmV0+I3uQ24Gj2IJZASNdFm2xSLYuvZ3oYico6kKCbz0pjHEqgu2NB8HxWGJ5bAbo/SKJqPrR04jCZw1SQTBPZe6fPvCdyYpSq39Td7n1RdOLpIQndCnQCBz/O1HbX3P3HyJwRPUqJjGRVuJEcAAAAASUVORK5CYII=" alt='icone de lapis para editar o produto' />
                         <p className={styles.titulo}>
@@ -131,9 +132,9 @@ const Home = () => {
                             R$ 10.00
                         </p>
                     </div>
-                </section>
+                </section> */}
             </article>
-            
+
         </section>
     )
 }
