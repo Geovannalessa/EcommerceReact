@@ -1,0 +1,13 @@
+footer{
+    display: flex;
+    margin-top: 11px;
+    padding: 20px;
+    background-color: rgb(235, 234, 234);
+    height:fit-content;
+    justify-content: space-between;
+    font-family: serif;
+}
+.icones{
+    cursor: pointer;
+    align-self:flex-end;
+}

@@ -133,9 +133,7 @@ const Home = () => {
                     </div>
                 </section>
             </article>
-            <footer>
-                footer
-            </footer>
+            
         </section>
     )
 }

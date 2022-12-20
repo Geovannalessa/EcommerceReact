@@ -85,17 +85,9 @@
     border: 1px rgba(192, 192, 192, 0.816) solid;
 }
 .valor{
-
-
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 5px;
     font-weight: bold;
     font-size: 30px;
     color: rgb(184, 26, 26);
-}
-footer{
-    margin-top: 11px;
-    background-color: rgb(235, 234, 234);
-    height: 100px;
-    
 }
