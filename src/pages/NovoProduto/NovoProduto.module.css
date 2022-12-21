@@ -1,0 +1,66 @@
+.tudo {
+    background-image: url('https://images.pexels.com/photos/693794/pexels-photo-693794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    display: flex;
+}
+
+.tudo>section {
+    background-color: rgba(227, 241, 241, 0.584);
+    align-self: center;
+    width: 100%;
+    padding: 20px 0px 40px 0px;
+}
+
+.container {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.container>img {
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 80px;
+    border: 1px solid rgba(76, 74, 74, 0.409);
+    margin-bottom: 20px;
+
+}
+
+.container>div {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.container>div>input {
+    width: 75%;
+    border: 1px solid rgba(72, 14, 14, 0.595);
+}
+
+.descricao {
+    display: flex;
+}
+
+.descricao>input {
+    height: 40px;
+}
+.valor{
+    background-color: aliceblue;
+    padding: 6px !important;
+   width: 50% !important;
+}
+.valor>input {
+    width: inherit !important;
+}
+.valor>div>button{
+    background-color: black;
+}
+.valorButton{
+    background-color: rgba(240, 248, 255, 0) !important;
+}

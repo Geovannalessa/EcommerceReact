@@ -28,15 +28,17 @@ const Home = () => {
                         </p>
                     </div>
                 </section>
-                {/* <section className={styles.card}>
-                    <img src="https://images.pexels.com/photos/708777/pexels-photo-708777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="frutas" />
+                <section className={styles.card}>
+                <img src="https://images.pexels.com/photos/708777/pexels-photo-708777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="frutas" />
+
                     <div className={styles.bloco}>
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvdle0RwUAQhp9UgArogBLohA7ogA50gEoogQ7oQAfMa3Jmc/m4u5Ax435lks37tTt7GR2frGN8vkWwBB7AAbhb0T7BFNgBo4CzBbAH+sARmOT1Z2BmSXyCKzBsAX7J/xkDBRKfQDZ1QtFZ5QKXc50TIJIVsK0CiiGoi0V4Lq4NsG5D4CsXhotFz+qFc/RqdkpEoViEVwBPIagCl8K69+85iXGQCq6YNEmV0+I3uQ24Gj2IJZASNdFm2xSLYuvZ3oYico6kKCbz0pjHEqgu2NB8HxWGJ5bAbo/SKJqPrR04jCZw1SQTBPZe6fPvCdyYpSq39Td7n1RdOLpIQndCnQCBz/O1HbX3P3HyJwRPUqJjGRVuJEcAAAAASUVORK5CYII=" alt='icone de lapis para editar o produto' />
+                        <Link to='/editarProduto'> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvdle0RwUAQhp9UgArogBLohA7ogA50gEoogQ7oQAfMa3Jmc/m4u5Ax435lks37tTt7GR2frGN8vkWwBB7AAbhb0T7BFNgBo4CzBbAH+sARmOT1Z2BmSXyCKzBsAX7J/xkDBRKfQDZ1QtFZ5QKXc50TIJIVsK0CiiGoi0V4Lq4NsG5D4CsXhotFz+qFc/RqdkpEoViEVwBPIagCl8K69+85iXGQCq6YNEmV0+I3uQ24Gj2IJZASNdFm2xSLYuvZ3oYico6kKCbz0pjHEqgu2NB8HxWGJ5bAbo/SKJqPrR04jCZw1SQTBPZe6fPvCdyYpSq39Td7n1RdOLpIQndCnQCBz/O1HbX3P3HyJwRPUqJjGRVuJEcAAAAASUVORK5CYII=" alt='icone de lapis para editar o produto' />
+                        </Link>
                         <p className={styles.titulo}>
-                            UVA NIÁGARA
+                        UVA NIÁGARA
                         </p>
                         <p className={styles.descricao}>
-                            Descrição: Essa uva é bem conhecida e possui um tom rosado. Devido à essa coloração rosada, também é conhecida como uva rosa. É uma uva de sabor doce sendo muito usada na produção de vinhos e sucos.
+                        Descrição: Essa uva é bem conhecida e possui um tom rosado. Devido à essa coloração rosada, também é conhecida como uva rosa. É uma uva de sabor doce sendo muito usada na produção de vinhos e sucos.
                         </p>
                         <p className={styles.valor}>
                             R$ 10.00
@@ -44,24 +46,26 @@ const Home = () => {
                     </div>
                 </section>
                 <section className={styles.card}>
-                    <img src="https://images.pexels.com/photos/1435301/pexels-photo-1435301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="frutas" />
+                <img src="https://images.pexels.com/photos/1435301/pexels-photo-1435301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="frutas" />
                     <div className={styles.bloco}>
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvdle0RwUAQhp9UgArogBLohA7ogA50gEoogQ7oQAfMa3Jmc/m4u5Ax435lks37tTt7GR2frGN8vkWwBB7AAbhb0T7BFNgBo4CzBbAH+sARmOT1Z2BmSXyCKzBsAX7J/xkDBRKfQDZ1QtFZ5QKXc50TIJIVsK0CiiGoi0V4Lq4NsG5D4CsXhotFz+qFc/RqdkpEoViEVwBPIagCl8K69+85iXGQCq6YNEmV0+I3uQ24Gj2IJZASNdFm2xSLYuvZ3oYico6kKCbz0pjHEqgu2NB8HxWGJ5bAbo/SKJqPrR04jCZw1SQTBPZe6fPvCdyYpSq39Td7n1RdOLpIQndCnQCBz/O1HbX3P3HyJwRPUqJjGRVuJEcAAAAASUVORK5CYII=" alt='icone de lapis para editar o produto' />
+                        <Link to='/editarProduto'> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvdle0RwUAQhp9UgArogBLohA7ogA50gEoogQ7oQAfMa3Jmc/m4u5Ax435lks37tTt7GR2frGN8vkWwBB7AAbhb0T7BFNgBo4CzBbAH+sARmOT1Z2BmSXyCKzBsAX7J/xkDBRKfQDZ1QtFZ5QKXc50TIJIVsK0CiiGoi0V4Lq4NsG5D4CsXhotFz+qFc/RqdkpEoViEVwBPIagCl8K69+85iXGQCq6YNEmV0+I3uQ24Gj2IJZASNdFm2xSLYuvZ3oYico6kKCbz0pjHEqgu2NB8HxWGJ5bAbo/SKJqPrR04jCZw1SQTBPZe6fPvCdyYpSq39Td7n1RdOLpIQndCnQCBz/O1HbX3P3HyJwRPUqJjGRVuJEcAAAAASUVORK5CYII=" alt='icone de lapis para editar o produto' />
+                        </Link>
                         <p className={styles.titulo}>
-                            MORANGO
+                         MORANGO
                         </p>
                         <p className={styles.descricao}>
-                            Descrição: O morango é também uma fruta rica em antioxidantes, como antocianinas e o ácido elágico, que conferem outros benefícios para a saúde, tias como combater o envelhecimento da pele, ajudar a prevenir doenças cardiovasculares, melhorar a capacidade mental, prevenir o câncer e ajudar a combater inflamações.
+                        Descrição: O morango é também uma fruta rica em antioxidantes, como antocianinas e o ácido elágico, que conferem outros benefícios para a saúde, tias como combater o envelhecimento da pele, ajudar a prevenir doenças cardiovasculares, melhorar a capacidade mental, prevenir o câncer e ajudar a combater inflamações.
                         </p>
                         <p className={styles.valor}>
-                            R$ 9.00
+                            R$ 13.00
                         </p>
                     </div>
                 </section>
                 <section className={styles.card}>
                     <img src="https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="frutas" />
                     <div className={styles.bloco}>
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvdle0RwUAQhp9UgArogBLohA7ogA50gEoogQ7oQAfMa3Jmc/m4u5Ax435lks37tTt7GR2frGN8vkWwBB7AAbhb0T7BFNgBo4CzBbAH+sARmOT1Z2BmSXyCKzBsAX7J/xkDBRKfQDZ1QtFZ5QKXc50TIJIVsK0CiiGoi0V4Lq4NsG5D4CsXhotFz+qFc/RqdkpEoViEVwBPIagCl8K69+85iXGQCq6YNEmV0+I3uQ24Gj2IJZASNdFm2xSLYuvZ3oYico6kKCbz0pjHEqgu2NB8HxWGJ5bAbo/SKJqPrR04jCZw1SQTBPZe6fPvCdyYpSq39Td7n1RdOLpIQndCnQCBz/O1HbX3P3HyJwRPUqJjGRVuJEcAAAAASUVORK5CYII=" alt='icone de lapis para editar o produto' />
+                        <Link to='/editarProduto'> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvdle0RwUAQhp9UgArogBLohA7ogA50gEoogQ7oQAfMa3Jmc/m4u5Ax435lks37tTt7GR2frGN8vkWwBB7AAbhb0T7BFNgBo4CzBbAH+sARmOT1Z2BmSXyCKzBsAX7J/xkDBRKfQDZ1QtFZ5QKXc50TIJIVsK0CiiGoi0V4Lq4NsG5D4CsXhotFz+qFc/RqdkpEoViEVwBPIagCl8K69+85iXGQCq6YNEmV0+I3uQ24Gj2IJZASNdFm2xSLYuvZ3oYico6kKCbz0pjHEqgu2NB8HxWGJ5bAbo/SKJqPrR04jCZw1SQTBPZe6fPvCdyYpSq39Td7n1RdOLpIQndCnQCBz/O1HbX3P3HyJwRPUqJjGRVuJEcAAAAASUVORK5CYII=" alt='icone de lapis para editar o produto' />
+                        </Link>
                         <p className={styles.titulo}>
                             CENOURA
                         </p>
@@ -74,14 +78,16 @@ const Home = () => {
                     </div>
                 </section>
                 <section className={styles.card}>
-                    <img src="https://images.pexels.com/photos/708777/pexels-photo-708777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="frutas" />
+                <img src="https://images.pexels.com/photos/708777/pexels-photo-708777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="frutas" />
+
                     <div className={styles.bloco}>
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvdle0RwUAQhp9UgArogBLohA7ogA50gEoogQ7oQAfMa3Jmc/m4u5Ax435lks37tTt7GR2frGN8vkWwBB7AAbhb0T7BFNgBo4CzBbAH+sARmOT1Z2BmSXyCKzBsAX7J/xkDBRKfQDZ1QtFZ5QKXc50TIJIVsK0CiiGoi0V4Lq4NsG5D4CsXhotFz+qFc/RqdkpEoViEVwBPIagCl8K69+85iXGQCq6YNEmV0+I3uQ24Gj2IJZASNdFm2xSLYuvZ3oYico6kKCbz0pjHEqgu2NB8HxWGJ5bAbo/SKJqPrR04jCZw1SQTBPZe6fPvCdyYpSq39Td7n1RdOLpIQndCnQCBz/O1HbX3P3HyJwRPUqJjGRVuJEcAAAAASUVORK5CYII=" alt='icone de lapis para editar o produto' />
+                        <Link to='/editarProduto'> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvdle0RwUAQhp9UgArogBLohA7ogA50gEoogQ7oQAfMa3Jmc/m4u5Ax435lks37tTt7GR2frGN8vkWwBB7AAbhb0T7BFNgBo4CzBbAH+sARmOT1Z2BmSXyCKzBsAX7J/xkDBRKfQDZ1QtFZ5QKXc50TIJIVsK0CiiGoi0V4Lq4NsG5D4CsXhotFz+qFc/RqdkpEoViEVwBPIagCl8K69+85iXGQCq6YNEmV0+I3uQ24Gj2IJZASNdFm2xSLYuvZ3oYico6kKCbz0pjHEqgu2NB8HxWGJ5bAbo/SKJqPrR04jCZw1SQTBPZe6fPvCdyYpSq39Td7n1RdOLpIQndCnQCBz/O1HbX3P3HyJwRPUqJjGRVuJEcAAAAASUVORK5CYII=" alt='icone de lapis para editar o produto' />
+                        </Link>
                         <p className={styles.titulo}>
-                            UVA NIÁGARA
+                        UVA NIÁGARA
                         </p>
                         <p className={styles.descricao}>
-                            Descrição: Essa uva é bem conhecida e possui um tom rosado. Devido à essa coloração rosada, também é conhecida como uva rosa. É uma uva de sabor doce sendo muito usada na produção de vinhos e sucos.
+                        Descrição: Essa uva é bem conhecida e possui um tom rosado. Devido à essa coloração rosada, também é conhecida como uva rosa. É uma uva de sabor doce sendo muito usada na produção de vinhos e sucos.
                         </p>
                         <p className={styles.valor}>
                             R$ 10.00
@@ -89,24 +95,26 @@ const Home = () => {
                     </div>
                 </section>
                 <section className={styles.card}>
-                    <img src="https://images.pexels.com/photos/1435301/pexels-photo-1435301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="frutas" />
+                <img src="https://images.pexels.com/photos/1435301/pexels-photo-1435301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="frutas" />
                     <div className={styles.bloco}>
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvdle0RwUAQhp9UgArogBLohA7ogA50gEoogQ7oQAfMa3Jmc/m4u5Ax435lks37tTt7GR2frGN8vkWwBB7AAbhb0T7BFNgBo4CzBbAH+sARmOT1Z2BmSXyCKzBsAX7J/xkDBRKfQDZ1QtFZ5QKXc50TIJIVsK0CiiGoi0V4Lq4NsG5D4CsXhotFz+qFc/RqdkpEoViEVwBPIagCl8K69+85iXGQCq6YNEmV0+I3uQ24Gj2IJZASNdFm2xSLYuvZ3oYico6kKCbz0pjHEqgu2NB8HxWGJ5bAbo/SKJqPrR04jCZw1SQTBPZe6fPvCdyYpSq39Td7n1RdOLpIQndCnQCBz/O1HbX3P3HyJwRPUqJjGRVuJEcAAAAASUVORK5CYII=" alt='icone de lapis para editar o produto' />
+                        <Link to='/editarProduto'> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvdle0RwUAQhp9UgArogBLohA7ogA50gEoogQ7oQAfMa3Jmc/m4u5Ax435lks37tTt7GR2frGN8vkWwBB7AAbhb0T7BFNgBo4CzBbAH+sARmOT1Z2BmSXyCKzBsAX7J/xkDBRKfQDZ1QtFZ5QKXc50TIJIVsK0CiiGoi0V4Lq4NsG5D4CsXhotFz+qFc/RqdkpEoViEVwBPIagCl8K69+85iXGQCq6YNEmV0+I3uQ24Gj2IJZASNdFm2xSLYuvZ3oYico6kKCbz0pjHEqgu2NB8HxWGJ5bAbo/SKJqPrR04jCZw1SQTBPZe6fPvCdyYpSq39Td7n1RdOLpIQndCnQCBz/O1HbX3P3HyJwRPUqJjGRVuJEcAAAAASUVORK5CYII=" alt='icone de lapis para editar o produto' />
+                        </Link>
                         <p className={styles.titulo}>
-                            MORANGO
+                         MORANGO
                         </p>
                         <p className={styles.descricao}>
-                            Descrição: O morango é também uma fruta rica em antioxidantes, como antocianinas e o ácido elágico, que conferem outros benefícios para a saúde, tias como combater o envelhecimento da pele, ajudar a prevenir doenças cardiovasculares, melhorar a capacidade mental, prevenir o câncer e ajudar a combater inflamações.
+                        Descrição: O morango é também uma fruta rica em antioxidantes, como antocianinas e o ácido elágico, que conferem outros benefícios para a saúde, tias como combater o envelhecimento da pele, ajudar a prevenir doenças cardiovasculares, melhorar a capacidade mental, prevenir o câncer e ajudar a combater inflamações.
                         </p>
                         <p className={styles.valor}>
-                            R$ 9.00
+                            R$ 13.00
                         </p>
                     </div>
                 </section>
                 <section className={styles.card}>
                     <img src="https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="frutas" />
                     <div className={styles.bloco}>
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvdle0RwUAQhp9UgArogBLohA7ogA50gEoogQ7oQAfMa3Jmc/m4u5Ax435lks37tTt7GR2frGN8vkWwBB7AAbhb0T7BFNgBo4CzBbAH+sARmOT1Z2BmSXyCKzBsAX7J/xkDBRKfQDZ1QtFZ5QKXc50TIJIVsK0CiiGoi0V4Lq4NsG5D4CsXhotFz+qFc/RqdkpEoViEVwBPIagCl8K69+85iXGQCq6YNEmV0+I3uQ24Gj2IJZASNdFm2xSLYuvZ3oYico6kKCbz0pjHEqgu2NB8HxWGJ5bAbo/SKJqPrR04jCZw1SQTBPZe6fPvCdyYpSq39Td7n1RdOLpIQndCnQCBz/O1HbX3P3HyJwRPUqJjGRVuJEcAAAAASUVORK5CYII=" alt='icone de lapis para editar o produto' />
+                        <Link to='/editarProduto'> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvdle0RwUAQhp9UgArogBLohA7ogA50gEoogQ7oQAfMa3Jmc/m4u5Ax435lks37tTt7GR2frGN8vkWwBB7AAbhb0T7BFNgBo4CzBbAH+sARmOT1Z2BmSXyCKzBsAX7J/xkDBRKfQDZ1QtFZ5QKXc50TIJIVsK0CiiGoi0V4Lq4NsG5D4CsXhotFz+qFc/RqdkpEoViEVwBPIagCl8K69+85iXGQCq6YNEmV0+I3uQ24Gj2IJZASNdFm2xSLYuvZ3oYico6kKCbz0pjHEqgu2NB8HxWGJ5bAbo/SKJqPrR04jCZw1SQTBPZe6fPvCdyYpSq39Td7n1RdOLpIQndCnQCBz/O1HbX3P3HyJwRPUqJjGRVuJEcAAAAASUVORK5CYII=" alt='icone de lapis para editar o produto' />
+                        </Link>
                         <p className={styles.titulo}>
                             CENOURA
                         </p>
@@ -119,20 +127,22 @@ const Home = () => {
                     </div>
                 </section>
                 <section className={styles.card}>
-                    <img src="https://images.pexels.com/photos/708777/pexels-photo-708777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="frutas" />
+                <img src="https://images.pexels.com/photos/708777/pexels-photo-708777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="frutas" />
+
                     <div className={styles.bloco}>
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvdle0RwUAQhp9UgArogBLohA7ogA50gEoogQ7oQAfMa3Jmc/m4u5Ax435lks37tTt7GR2frGN8vkWwBB7AAbhb0T7BFNgBo4CzBbAH+sARmOT1Z2BmSXyCKzBsAX7J/xkDBRKfQDZ1QtFZ5QKXc50TIJIVsK0CiiGoi0V4Lq4NsG5D4CsXhotFz+qFc/RqdkpEoViEVwBPIagCl8K69+85iXGQCq6YNEmV0+I3uQ24Gj2IJZASNdFm2xSLYuvZ3oYico6kKCbz0pjHEqgu2NB8HxWGJ5bAbo/SKJqPrR04jCZw1SQTBPZe6fPvCdyYpSq39Td7n1RdOLpIQndCnQCBz/O1HbX3P3HyJwRPUqJjGRVuJEcAAAAASUVORK5CYII=" alt='icone de lapis para editar o produto' />
+                        <Link to='/editarProduto'> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvdle0RwUAQhp9UgArogBLohA7ogA50gEoogQ7oQAfMa3Jmc/m4u5Ax435lks37tTt7GR2frGN8vkWwBB7AAbhb0T7BFNgBo4CzBbAH+sARmOT1Z2BmSXyCKzBsAX7J/xkDBRKfQDZ1QtFZ5QKXc50TIJIVsK0CiiGoi0V4Lq4NsG5D4CsXhotFz+qFc/RqdkpEoViEVwBPIagCl8K69+85iXGQCq6YNEmV0+I3uQ24Gj2IJZASNdFm2xSLYuvZ3oYico6kKCbz0pjHEqgu2NB8HxWGJ5bAbo/SKJqPrR04jCZw1SQTBPZe6fPvCdyYpSq39Td7n1RdOLpIQndCnQCBz/O1HbX3P3HyJwRPUqJjGRVuJEcAAAAASUVORK5CYII=" alt='icone de lapis para editar o produto' />
+                        </Link>
                         <p className={styles.titulo}>
-                            UVA NIÁGARA
+                        UVA NIÁGARA
                         </p>
                         <p className={styles.descricao}>
-                            Descrição: Essa uva é bem conhecida e possui um tom rosado. Devido à essa coloração rosada, também é conhecida como uva rosa. É uma uva de sabor doce sendo muito usada na produção de vinhos e sucos.
+                        Descrição: Essa uva é bem conhecida e possui um tom rosado. Devido à essa coloração rosada, também é conhecida como uva rosa. É uma uva de sabor doce sendo muito usada na produção de vinhos e sucos.
                         </p>
                         <p className={styles.valor}>
                             R$ 10.00
                         </p>
                     </div>
-                </section> */}
+                </section>
             </article>
 
         </section>

@@ -66,7 +66,7 @@
     opacity: 1;
 }
 
-.bloco>img {
+.bloco>a>img {
     display: flex;
     height: 28px;
     cursor: pointer;
