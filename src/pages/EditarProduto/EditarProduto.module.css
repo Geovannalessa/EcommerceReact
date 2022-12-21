@@ -1,0 +1,85 @@
+.tudo {
+    background-image: url('https://images.pexels.com/photos/693794/pexels-photo-693794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 550px;
+    display: flex;
+}
+
+.tudo>section {
+    background-color: rgba(255, 248, 248, 0.44);
+    align-self: center;
+    width: 100%;
+    padding: 40px 0px 60px 0px;
+}
+
+.container {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.container>img {
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 80px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.container>div {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.container>div>input {
+    width: 75%;
+    border: 1px solid rgba(187, 216, 68, 0.061);
+}
+
+.descricao {
+    display: flex;
+}
+
+.descricao>textarea{
+    height: 40px;
+    border: 1px solid rgba(187, 216, 68, 0.061);
+}
+.container>p{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0%;
+}
+.valor{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.valor>input{
+    border: 1px solid rgba(187, 216, 68, 0.061);
+}
+.container>p>div>button{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    width: 100%;
+    color: aliceblue;
+    cursor: pointer;
+}
+.botaoAdicionar{
+    width: 50%;
+}
+.container>button{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    
+    color: aliceblue;
+    cursor: pointer;
+}

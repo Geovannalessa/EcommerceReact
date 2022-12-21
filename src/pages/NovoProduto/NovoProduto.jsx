@@ -9,22 +9,27 @@ const NovoProduto = () => {
                         <label htmlFor="titulo">Título: </label>
                         <input type="text" />
                     </div>
-                    <div>
-                        <label htmlFor="endereçoImagem">Endereço da imagem: </label>
+                    <div className={styles.descricao} >
+                        <label htmlFor="endereçoImagem" >Endereço da imagem: </label>
                         <input type="text" />
                     </div>
                     <div className={styles.descricao} >
-                        <label htmlFor="descrição">Descrição: </label> 
+                        <label htmlFor="descrição">Descrição: </label>
                         <textarea name="" id="" cols="90" rows="3"></textarea>
-                        </div>
-                    <div className={styles.valorButton}>
-                        <div className={styles.valor}>
-                            <label htmlFor="valor">Valor: </label>
-                            <input type="text" />
-                        </div>
-                        <button></button>
                     </div>
-                   
+                    <p>
+                        <div className={styles.valor} >
+                        <label htmlFor="valor">Valor: </label>
+                        <input type="text" />
+                        </div>
+                    <div className={styles.botaoAdicionar}>
+                    <button>Adicionar Produto</button>
+                    </div>
+                        
+                    </p>
+                        
+                    
+
                 </form>
             </section>
 
